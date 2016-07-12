@@ -28,3 +28,6 @@ Thanks to the project of kahopoon [Pokemon-Go-Controller](https://github.com/kah
 ![PokemonGo2](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo2.jpg)
 ![PokemonGo3](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo3.jpg)
 ![PokemonGo4](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo4.jpg)
+
+## Todo
+1. add map and current location on the html page.
