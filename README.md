@@ -17,3 +17,6 @@
 6. Open PokemonGo App.
 7. use http://10.0.0.100/PokemonGoController to control your role in the game.
 8. Enjoy and catch Pokemon.
+
+## Thanks
+Thanks to the project of kahopoon [Pokemon-Go-Controller](https://github.com/kahopoon/Pokemon-Go-Controller). I don't have two iOS 9 device, so I implement with HTML page.
