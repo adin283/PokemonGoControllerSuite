@@ -10,13 +10,21 @@
 
 ## Usage
 1. Setup the web server, visit the page like http://10.0.0.100/PokemonGoController, you will see the UI below;
+![web_controller](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/web_controller.png)
 2. Modify the Bundle Identifier and sign of the PokemonGoController Xcode project;
 3. Run the PokemonGoController project on your iOS device, which is also run the PokemonGo App;
 4. Adjust the x,y poisition in PokemonGoScript/runAutoClick.py.
+![change_location_xcode](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/change_location_xcode.png)
 5. Run ```python runAutoClick.py```
-6. Open PokemonGo App.
+6. Open PokemonGo App on your iOS device.
 7. use http://10.0.0.100/PokemonGoController to control your role in the game.
 8. Enjoy and catch Pokemon.
 
 ## Thanks
 Thanks to the project of kahopoon [Pokemon-Go-Controller](https://github.com/kahopoon/Pokemon-Go-Controller). I don't have two iOS 9 device, so I implement with HTML page.
+
+## Images
+![PokemonGo1](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo1.jpg)
+![PokemonGo2](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo2.jpg)
+![PokemonGo3](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo3.jpg)
+![PokemonGo4](https://github.com/adin283/PokemonGoControllerSuite/blob/master/Images/PokemonGo4.jpg)
