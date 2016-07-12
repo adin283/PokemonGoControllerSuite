@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>Pokemon Go Controller By Kevin</title>
+<style type="text/css">
+	.move_btn{width:100px;height:100px;line-height: 50px; border: 1px solid red;background-color: #00ff00;text-align: center;vertical-align: middle;}
+	.move_btn_middle{margin-left:50px;}
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+	function moveInterval() {
+		var randomNum = parseInt(20 * Math.random());
+		var number = "0.0000" + (40 + randomNum);
+		console.log("moveInterval:" + number);
+		return parseFloat(number);
+	}
+	function changeCurrentLocation(direction) {
+		var longitude = parseFloat($("#longitude").val());
+		var latitude = parseFloat($("#latitude").val());
+
+        if (direction == "left") {
+        	longitude -= moveInterval();
+        } else if (direction == "right") {
+        	longitude += moveInterval();
+        } else if (direction == "up") {
+        	latitude += moveInterval();
+        }  else if (direction == "down") {
+        	latitude -= moveInterval();
+        }
+        return {"latitude" : latitude, "longitude" : longitude};
+    }
+	$(function(){
+		$(".move_btn").click(function(){
+			var direction = $(this).val();
+			var location = changeCurrentLocation(direction);
+			$("#longitude").val(location["longitude"]);
+			$("#latitude").val(location["latitude"]);
+			$.ajax({
+				type : "POST",
+				url : "./GPXFileGenerator.php",
+				data : location,
+				dataType : "JSON",
+				success : function (data) {
+					
+				}
+			});
+		});
+	});
+</script>
+</head>
+<body>
+	<div>
+		Longitude：<input id="longitude" type="text" value="-35.308237"/>
+		Latitude：<input id="latitude" type="text" value="149.124605"/>
+	</div>
+	<div>
+		<input id="btn_up" class="move_btn move_btn_middle" type="button" value="up" /><br/>
+		<input id="btn_left" class="move_btn" type="button" value="left"/>
+		<input id="btn_right" class="move_btn" type="button" value="right"/><br/>
+		<input id="btn_down" class="move_btn move_btn_middle" type="button" value="down" />
+		
+	</div>
+</body>
+</html>

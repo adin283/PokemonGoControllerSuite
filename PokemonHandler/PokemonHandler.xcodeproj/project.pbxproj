@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF35236C1D34B82E005D6A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35236B1D34B82E005D6A31 /* main.m */; };
+		DF35236F1D34B82E005D6A31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35236E1D34B82E005D6A31 /* AppDelegate.m */; };
+		DF3523721D34B82E005D6A31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3523711D34B82E005D6A31 /* ViewController.m */; };
+		DF3523751D34B82E005D6A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3523731D34B82E005D6A31 /* Main.storyboard */; };
+		DF3523771D34B82E005D6A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3523761D34B82E005D6A31 /* Assets.xcassets */; };
+		DF35237A1D34B82E005D6A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3523781D34B82E005D6A31 /* LaunchScreen.storyboard */; };
+		DF3523851D34B82E005D6A31 /* PokemonHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3523841D34B82E005D6A31 /* PokemonHandlerTests.m */; };
+		DF3523901D34B82E005D6A31 /* PokemonHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35238F1D34B82E005D6A31 /* PokemonHandlerUITests.m */; };
+		DF67A5A91D351C8B00F6013F /* pokemonLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DF67A5A81D351C8B00F6013F /* pokemonLocation.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3523811D34B82E005D6A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF35235F1D34B82D005D6A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3523661D34B82E005D6A31;
+			remoteInfo = PokemonHandler;
+		};
+		DF35238C1D34B82E005D6A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF35235F1D34B82D005D6A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3523661D34B82E005D6A31;
+			remoteInfo = PokemonHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3523671D34B82E005D6A31 /* PokemonHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF35236B1D34B82E005D6A31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF35236D1D34B82E005D6A31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF35236E1D34B82E005D6A31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3523701D34B82E005D6A31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF3523711D34B82E005D6A31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3523741D34B82E005D6A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3523761D34B82E005D6A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3523791D34B82E005D6A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF35237B1D34B82E005D6A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3523801D34B82E005D6A31 /* PokemonHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3523841D34B82E005D6A31 /* PokemonHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonHandlerTests.m; sourceTree = "<group>"; };
+		DF3523861D34B82E005D6A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF35238B1D34B82E005D6A31 /* PokemonHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF35238F1D34B82E005D6A31 /* PokemonHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonHandlerUITests.m; sourceTree = "<group>"; };
+		DF3523911D34B82E005D6A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF67A5A81D351C8B00F6013F /* pokemonLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemonLocation.gpx; path = PokemonHandler/pokemonLocation.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3523641D34B82E005D6A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF35237D1D34B82E005D6A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3523881D34B82E005D6A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF35235E1D34B82D005D6A31 = {
+			isa = PBXGroup;
+			children = (
+				DF67A5A81D351C8B00F6013F /* pokemonLocation.gpx */,
+				DF3523691D34B82E005D6A31 /* PokemonHandler */,
+				DF3523831D34B82E005D6A31 /* PokemonHandlerTests */,
+				DF35238E1D34B82E005D6A31 /* PokemonHandlerUITests */,
+				DF3523681D34B82E005D6A31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3523681D34B82E005D6A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3523671D34B82E005D6A31 /* PokemonHandler.app */,
+				DF3523801D34B82E005D6A31 /* PokemonHandlerTests.xctest */,
+				DF35238B1D34B82E005D6A31 /* PokemonHandlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3523691D34B82E005D6A31 /* PokemonHandler */ = {
+			isa = PBXGroup;
+			children = (
+				DF35236D1D34B82E005D6A31 /* AppDelegate.h */,
+				DF35236E1D34B82E005D6A31 /* AppDelegate.m */,
+				DF3523701D34B82E005D6A31 /* ViewController.h */,
+				DF3523711D34B82E005D6A31 /* ViewController.m */,
+				DF3523731D34B82E005D6A31 /* Main.storyboard */,
+				DF3523761D34B82E005D6A31 /* Assets.xcassets */,
+				DF3523781D34B82E005D6A31 /* LaunchScreen.storyboard */,
+				DF35237B1D34B82E005D6A31 /* Info.plist */,
+				DF35236A1D34B82E005D6A31 /* Supporting Files */,
+			);
+			path = PokemonHandler;
+			sourceTree = "<group>";
+		};
+		DF35236A1D34B82E005D6A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF35236B1D34B82E005D6A31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3523831D34B82E005D6A31 /* PokemonHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3523841D34B82E005D6A31 /* PokemonHandlerTests.m */,
+				DF3523861D34B82E005D6A31 /* Info.plist */,
+			);
+			path = PokemonHandlerTests;
+			sourceTree = "<group>";
+		};
+		DF35238E1D34B82E005D6A31 /* PokemonHandlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF35238F1D34B82E005D6A31 /* PokemonHandlerUITests.m */,
+				DF3523911D34B82E005D6A31 /* Info.plist */,
+			);
+			path = PokemonHandlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3523661D34B82E005D6A31 /* PokemonHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3523941D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandler" */;
+			buildPhases = (
+				DF3523631D34B82E005D6A31 /* Sources */,
+				DF3523641D34B82E005D6A31 /* Frameworks */,
+				DF3523651D34B82E005D6A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonHandler;
+			productName = PokemonHandler;
+			productReference = DF3523671D34B82E005D6A31 /* PokemonHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF35237F1D34B82E005D6A31 /* PokemonHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3523971D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandlerTests" */;
+			buildPhases = (
+				DF35237C1D34B82E005D6A31 /* Sources */,
+				DF35237D1D34B82E005D6A31 /* Frameworks */,
+				DF35237E1D34B82E005D6A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3523821D34B82E005D6A31 /* PBXTargetDependency */,
+			);
+			name = PokemonHandlerTests;
+			productName = PokemonHandlerTests;
+			productReference = DF3523801D34B82E005D6A31 /* PokemonHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF35238A1D34B82E005D6A31 /* PokemonHandlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF35239A1D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandlerUITests" */;
+			buildPhases = (
+				DF3523871D34B82E005D6A31 /* Sources */,
+				DF3523881D34B82E005D6A31 /* Frameworks */,
+				DF3523891D34B82E005D6A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF35238D1D34B82E005D6A31 /* PBXTargetDependency */,
+			);
+			name = PokemonHandlerUITests;
+			productName = PokemonHandlerUITests;
+			productReference = DF35238B1D34B82E005D6A31 /* PokemonHandlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF35235F1D34B82D005D6A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KevinLab;
+				TargetAttributes = {
+					DF3523661D34B82E005D6A31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DF35237F1D34B82E005D6A31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DF3523661D34B82E005D6A31;
+					};
+					DF35238A1D34B82E005D6A31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DF3523661D34B82E005D6A31;
+					};
+				};
+			};
+			buildConfigurationList = DF3523621D34B82D005D6A31 /* Build configuration list for PBXProject "PokemonHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF35235E1D34B82D005D6A31;
+			productRefGroup = DF3523681D34B82E005D6A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3523661D34B82E005D6A31 /* PokemonHandler */,
+				DF35237F1D34B82E005D6A31 /* PokemonHandlerTests */,
+				DF35238A1D34B82E005D6A31 /* PokemonHandlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3523651D34B82E005D6A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF35237A1D34B82E005D6A31 /* LaunchScreen.storyboard in Resources */,
+				DF3523771D34B82E005D6A31 /* Assets.xcassets in Resources */,
+				DF67A5A91D351C8B00F6013F /* pokemonLocation.gpx in Resources */,
+				DF3523751D34B82E005D6A31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF35237E1D34B82E005D6A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3523891D34B82E005D6A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3523631D34B82E005D6A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3523721D34B82E005D6A31 /* ViewController.m in Sources */,
+				DF35236F1D34B82E005D6A31 /* AppDelegate.m in Sources */,
+				DF35236C1D34B82E005D6A31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF35237C1D34B82E005D6A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3523851D34B82E005D6A31 /* PokemonHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3523871D34B82E005D6A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3523901D34B82E005D6A31 /* PokemonHandlerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3523821D34B82E005D6A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3523661D34B82E005D6A31 /* PokemonHandler */;
+			targetProxy = DF3523811D34B82E005D6A31 /* PBXContainerItemProxy */;
+		};
+		DF35238D1D34B82E005D6A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3523661D34B82E005D6A31 /* PokemonHandler */;
+			targetProxy = DF35238C1D34B82E005D6A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF3523731D34B82E005D6A31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3523741D34B82E005D6A31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3523781D34B82E005D6A31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3523791D34B82E005D6A31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3523921D34B82E005D6A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3523931D34B82E005D6A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3523951D34B82E005D6A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF3523961D34B82E005D6A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF3523981D34B82E005D6A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokemonHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonHandler.app/PokemonHandler";
+			};
+			name = Debug;
+		};
+		DF3523991D34B82E005D6A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokemonHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonHandler.app/PokemonHandler";
+			};
+			name = Release;
+		};
+		DF35239B1D34B82E005D6A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokemonHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonHandler;
+			};
+			name = Debug;
+		};
+		DF35239C1D34B82E005D6A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokemonHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.PokemonHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonHandler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3523621D34B82D005D6A31 /* Build configuration list for PBXProject "PokemonHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3523921D34B82E005D6A31 /* Debug */,
+				DF3523931D34B82E005D6A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3523941D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3523951D34B82E005D6A31 /* Debug */,
+				DF3523961D34B82E005D6A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3523971D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3523981D34B82E005D6A31 /* Debug */,
+				DF3523991D34B82E005D6A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF35239A1D34B82E005D6A31 /* Build configuration list for PBXNativeTarget "PokemonHandlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF35239B1D34B82E005D6A31 /* Debug */,
+				DF35239C1D34B82E005D6A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF35235F1D34B82D005D6A31 /* Project object */;
+}
