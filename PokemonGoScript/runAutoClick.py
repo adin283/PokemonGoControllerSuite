@@ -1,14 +1,24 @@
 import os
 import time
+import sys
 
-def clickAction():
-	os.system("./autoClicker -x 539 -y 508")
-	os.system("./autoClicker -x 539 -y 558")
-	time.sleep(1)
-	print "clicking!!"
+def clickAction(gap):
+    os.system("./autoClicker -x 2400 -y 700")
+    time.sleep(0.2)
+    os.system("./autoClicker -x 2400 -y 750")
+    time.sleep(gap)
+    print "clicking!!"
 
-def start():
-	while True:
-		clickAction()
+def start(gap):
+    while True:
+        clickAction(gap)
 
-start()
+if __name__ == '__main__':
+    try:
+        if len(sys.argv) > 1:
+            gap = int(sys.argv[1])
+        else:
+            gap = 3
+        start(gap)
+    except:
+        print "error occurs"
