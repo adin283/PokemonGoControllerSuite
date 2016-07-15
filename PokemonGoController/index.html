@@ -20,14 +20,22 @@
 		var longitude = parseFloat($("#longitude").val());
 		var latitude = parseFloat($("#latitude").val());
 
-        if (direction == "left") {
-        	longitude -= moveInterval();
-        } else if (direction == "right") {
-        	longitude += moveInterval();
-        } else if (direction == "up") {
-        	latitude += moveInterval();
-        }  else if (direction == "down") {
-        	latitude -= moveInterval();
+        if (direction == "West") {
+            longitude -= moveInterval();
+        } else if (direction == "East") {
+            longitude += moveInterval();
+        } else if (direction == "North") {
+            if(latitude >= 0) {
+                latitude += moveInterval();
+            } else {
+                latitude -= moveInterval();
+            }
+        }  else if (direction == "South") {
+            if(latitude >= 0) {
+                latitude -= moveInterval();
+            } else {
+                latitude += moveInterval();
+            }
         }
         return {"latitude" : latitude, "longitude" : longitude};
     }
@@ -52,14 +60,14 @@
 </head>
 <body>
 	<div>
-		Longitude：<input id="longitude" type="text" value="34.041974"/>
-		Latitude：<input id="latitude" type="text" value="-118.266889"/>
+		Latitude：<input id="latitude" type="text" value="34.041974"/>
+		Longitude：<input id="longitude" type="text" value="-118.266889"/>
 	</div>
 	<div>
-		<input id="btn_up" class="move_btn move_btn_middle" type="button" value="up" /><br/>
-		<input id="btn_left" class="move_btn" type="button" value="left"/>
-		<input id="btn_right" class="move_btn" type="button" value="right"/><br/>
-		<input id="btn_down" class="move_btn move_btn_middle" type="button" value="down" />
+		<input id="btn_up" class="move_btn move_btn_middle" type="button" value="North" /><br/>
+		<input id="btn_left" class="move_btn" type="button" value="West"/>
+		<input id="btn_right" class="move_btn" type="button" value="East"/><br/>
+		<input id="btn_down" class="move_btn move_btn_middle" type="button" value="South" />
 		
 	</div>
 </body>
